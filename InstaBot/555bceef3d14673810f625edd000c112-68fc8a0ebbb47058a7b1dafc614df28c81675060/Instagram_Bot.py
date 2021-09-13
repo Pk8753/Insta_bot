@@ -17,7 +17,7 @@ class InstagramBot:
     def __init__(self, username, password):
         self.username = username
         self.password = password
-        self.driver = webdriver.Chrome("/Users/pankaj.kumar/Desktop/PyPrograms/InstaBot/555bceef3d14673810f625edd000c112-68fc8a0ebbb47058a7b1dafc614df28c81675060/chromedriver")
+        self.driver = webdriver.Chrome("chromedriver")
 
     def closeBrowser(self):
         self.driver.close()
